@@ -1,0 +1,22 @@
+server:
+  port: 5050
+spring:
+  datasource:
+    driver-class: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/testc
+    username: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+plan-api:
+  messages:
+    planSaveSucc: Plan Saved Successfully
+    planSaveFail: Plan Saving Failed
+    planUpdateSucc: Plan Update Successfully
+    planUpdateFail: Plan Update Failed
+    planDeleteSuccess: Plan Deleted Successfully
+    planDeleteFail: Plan Deleted Failed
+    planStatusChange: Plan Status Changed Successfully
+    planStatusChangeFail: Plan Status Change Failed
